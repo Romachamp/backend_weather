@@ -26,13 +26,12 @@ class WeatherService {
 
         const clouds = data.clouds.all;
 
-        const response = {
+        return {
             weather: weather,
             wind: wind,
             clouds: clouds
-        }
-
-        return response;
+        };
+        // Response
     }
 }
 
