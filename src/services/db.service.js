@@ -13,6 +13,7 @@ class DbService {
 
         let returnData;
 
+        // it works
         await record.forEach(element => {
             returnData = element;
         })
